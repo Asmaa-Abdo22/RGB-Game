@@ -13,7 +13,7 @@
 # Built with :
 
 * HTML
-* CSS
+* Bootstrap 
 * pure JS
 
  
