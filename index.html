@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Game</title>
+    <!-- &---------FONT AWESOME ------------- -->
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <!-- &---------BOOTSTRAP CSS FILE ----------- -->
+    <link rel="stylesheet" href="./Css/bootstrap.min.css">
+    <!-- &---------Main CSS FILE ----------- -->
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+
+<body>
+    <div class="wrapper vh-100">
+        <header class="py-5 d-flex flex-column align-items-center gap-3">
+          <h1 class="text-uppercase">RGB Game</h1>
+          <h2 id="rgbSyntax">rgb(255, 255, 255)</h2>
+          <div class="button-group">
+            <button id="easyBtn" class="btn btn-outline-danger active">
+              Easy
+            </button>
+            <button id="hardBtn" class="btn btn-outline-danger  ">
+              Hard
+            </button>
+          </div>
+        </header>
+  
+        <section class=" py-4">
+          <button id="getColorsBtn" class="btn  d-block mx-auto">
+            GET COLORS
+          </button>
+          <div id="colorsContainer" class="container"></div>
+        </section>
+      </div>
+  
+    <!-- &----------BOOTSTRAP JS FILE --------- -->
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <!-- &----------MAIN JS FILE --------- -->
+    <script src="./Js/main.js"></script>
+</body>
+
+</html>

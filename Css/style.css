@@ -1,0 +1,27 @@
+header {
+    background-color:#FFD1E3;
+    border-bottom: 30px solid #5D3587;
+  }
+  
+  header button {
+    transition: 350ms color;
+  }
+  
+  header button:hover,
+  header button.active {
+    color: #fff !important ;
+  }
+  
+  section {
+    min-height: 65vh;
+    background-color: #17153B;
+  }
+  
+  .color-card {
+    height: 200px;
+    cursor: pointer;
+  }
+  #getColorsBtn{
+    background-color: #FF7D29;
+  }
+  
